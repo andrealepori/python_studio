@@ -149,20 +149,50 @@ print("il prezzo del drink è"+str(prezzo_drink))
 
 alcolici = ["vodka", "rhum",]
 print(alcolici)
-
 alcolici = ["1"]
 alcolici.append("ARMAGNAC")
 print(alcolici)
-
 alcolici.append("CHACACA")
 print(alcolici)
-
 alcolici.append("CALVADOS")
 print(alcolici)
-
 alcolici.insert(0, "CHAMPAGNE")
 print(alcolici)
 alcolici.remove( "CHACACA")
 print(alcolici)
 alcolici[1] ="MAGNUM"
 print(alcolici)
+
+dolci = ["Fragole" ,"Lamponi","Latte" ,"Yogurt", "Miele" ,"Acqua di Rose",]
+print(dolci)
+
+print('menu completo')
+menù_cibo_dolci= alcolici+dolci
+print(menù_cibo_dolci)
+
+
+print('disponibilità')
+for elenco in alcolici:
+  if alcolici == "CHACACA":
+     continue
+  print(elenco)
+
+#tutti i numeri da 1 a 18
+
+for numero in range (1,19):
+  print(numero)
+
+contatore = 0
+if contatore <= 10:
+    print(contatore)
+    contatore = contatore + 1
+
+
+    while True:
+        print ("che cosa fa un uccerellino dentro un pc?")
+        risposta= input()
+        if risposta =="chip":
+          print("hai indovinato")
+          break
+        else:
+          print("ritenta")
